@@ -8,7 +8,7 @@ long_url=input("Enter the URL : ")
 def shorter(long_url):
     x=sh.Shortener()
     short_url= x.tinyurl.short(long_url)
-    print("Short URL : ",short_url)
+    print("The Short URL : ",short_url)
     
 #calling the fuction
 shorter(long_url)
